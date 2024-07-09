@@ -1,0 +1,66 @@
+{
+  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.53\",\"type\":2},\"customTheme\":{\"name\":\"Custom23904905930205844.json\",\"version\":\"5.53\",\"type\":1}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Custom23904905930205844.json",
+            "path": "Custom23904905930205844.json",
+            "type": 201
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU02",
+            "path": "BaseThemes/CY24SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Corrected Feacal",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3015f80cc7310887557b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":528.6815415821501,\"y\":280.40567951318457,\"z\":1000,\"width\":398.70182555780934,\"height\":240.973630831643,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Sheet1.Mon\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Sheet1.Feacel Intake)\"}],\"Series\":[{\"queryRef\":\"Sheet1.Date.Variation.Date Hierarchy.Year\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Mon\"},\"Name\":\"Sheet1.Mon\",\"NativeReferenceName\":\"Mon\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Feacel Intake\"}},\"Function\":0},\"Name\":\"CountNonNull(Sheet1.Feacel Intake)\",\"NativeReferenceName\":\"Sum of Feacel Intake\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"Sheet1.Date.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Date Year\"}]},\"queryOptions\":{\"keepProjectionOrder\":true},\"showAllRoles\":[\"Category\"],\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"maxMarginFactor\":{\"expr\":{\"Literal\":{\"Value\":\"25L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1E323C'\"}}}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1EB4B4'\"}}}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#3C78EB'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sheet1\"}},\"Property\":\"Mon\"}},\"Right\":{\"Literal\":{\"Value\":\"'Jan'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#3C78EB'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sheet1\"}},\"Property\":\"Mon\"}},\"Right\":{\"Literal\":{\"Value\":\"'Mar'\"}}}}}]}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"enableBackground\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"secShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1E323C'\"}}}}}}}],\"lineStyles\":[{\"properties\":{\"lineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dashed'\"}}}}}],\"legend\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Faecal Intake (tonnes)'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffaa00'\"}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1e323c'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}],\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1e323c'\"}}}}}}}]}}}",
+          "filters": "[{\"name\":\"Filtere873bfd0ba9c0c6c73a0\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Sheet1\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"LocalDateTable_16fb4cf2-e922-47d2-b3a7-c71eab6c8be4\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Year\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]},\"type\":\"Categorical\",\"cachedDisplayNames\":[{\"id\":{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"LocalDateTable_16fb4cf2-e922-47d2-b3a7-c71eab6c8be4\"}},\"Property\":\"Year\"}},\"Right\":{\"Literal\":{\"Value\":\"2024L\"}}}}},\"displayName\":\"2024\"}],\"howCreated\":0,\"objects\":{},\"isHiddenInViewMode\":false}]",
+          "height": 240.97,
+          "width": 398.70,
+          "x": 528.68,
+          "y": 280.41,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"5b0a8db4ffd808f38f46\",\"layouts\":[{\"id\":0,\"position\":{\"x\":71.00303951367782,\"y\":280.1215805471125,\"z\":0,\"width\":400.7294832826748,\"height\":239.27051671732525,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Sheet1.Feacel Intake)\"}],\"Category\":[{\"queryRef\":\"Sheet1.Date.Variation.Date Hierarchy.Year\",\"active\":true},{\"queryRef\":\"Sheet1.Mon\",\"active\":true}],\"Y2\":[{\"queryRef\":\"Sum(Sheet1 (2).forecast)\"},{\"queryRef\":\"Sum(Sheet1 (2).budget)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0},{\"Name\":\"s1\",\"Entity\":\"Sheet1 (2)\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Feacel Intake\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Feacel Intake)\",\"NativeReferenceName\":\"kpi_act\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"Sheet1.Date.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Date Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Mon\"},\"Name\":\"Sheet1.Mon\",\"NativeReferenceName\":\"Mon\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"budget\"}},\"Function\":0},\"Name\":\"Sum(Sheet1 (2).budget)\",\"NativeReferenceName\":\"budget\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"forecast\"}},\"Function\":0},\"Name\":\"Sum(Sheet1 (2).forecast)\",\"NativeReferenceName\":\"forecast\"}]},\"columnProperties\":{\"Sum(Sheet1.Feacel Intake)\":{\"displayName\":\"kpi_act\"},\"Sum(Sheet1 (2).forecast)\":{\"displayName\":\"forecast\"},\"Sum(Sheet1 (2).budget)\":{\"displayName\":\"budget\"}},\"queryOptions\":{\"keepProjectionOrder\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"maxMarginFactor\":{\"expr\":{\"Literal\":{\"Value\":\"25L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1e323c'\"}}}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1EB4B4'\"}}}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#3C78EB'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Sheet1 (2).forecast)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#000000'\"}}}}}},\"selector\":{\"metadata\":\"Sum(Sheet1 (2).budget)\"}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"enableBackground\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"secShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1e323c'\"}}}}}}}],\"lineStyles\":[{\"properties\":{\"lineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'dashed'\"}}}}}],\"legend\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Faecal Intake (tonnes)'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffaa00'\"}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Arial'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1e323c'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}],\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1e323c'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 239.27,
+          "width": 400.73,
+          "x": 71.00,
+          "y": 280.12,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Custom23904905930205844.json"
+}

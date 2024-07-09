@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "quickFix"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f8741c2f-04fb-4a0a-8279-ac3dbaf11e11"
+  }
+}

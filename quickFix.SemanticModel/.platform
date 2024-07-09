@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "quickFix"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7dd933bf-ce08-4a00-a9cb-bb91fcc3fe3a"
+  }
+}
